@@ -1,11 +1,13 @@
+@import "tailwindcss";
 /* Estilos base */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 /* Personalización */
 .tile {
-  @apply bg-white w-16 h-24 border-2 border-gray-300 rounded-lg flex justify-between items-center p-2 m-1 cursor-pointer;
+  @apply bg-white w-20 h-10 border-2 border-gray-300 rounded-lg flex justify-between items-center p-2 m-1 cursor-pointer;
 }
 
 .tile.active {
@@ -23,4 +25,9 @@ body {
 
 .app {
   @apply text-center p-8;
+}
+
+.vl {
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 100%;
 }
