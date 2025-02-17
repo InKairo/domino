@@ -1,4 +1,5 @@
 // src/components/Hand.tsx
+import { useState } from "react";
 import { useGameStore } from "../store";
 
 export const Hand = () => {

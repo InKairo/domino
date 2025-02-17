@@ -31,3 +31,17 @@ body {
   border-left: 2px solid rgb(0, 0, 0);
   height: 100%;
 }
+
+
+/* Estilos específicos del tablero */
+.tile-board {
+  @apply bg-white w-20 h-10 border-2 border-gray-400 rounded-lg flex justify-between items-center p-3 text-xl font-bold shadow-md;
+}
+
+.tile-board span {
+  @apply bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center;
+}
+
+.board-container {
+  min-height: 160px; /* Altura mínima para mantener espacio cuando está vacío */
+}
